@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843CDB23237900DB00BCB0A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDB22237900DB00BCB0A3 /* AppDelegate.swift */; };
+		843CDB25237900DB00BCB0A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDB24237900DB00BCB0A3 /* SceneDelegate.swift */; };
+		843CDB27237900DB00BCB0A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDB26237900DB00BCB0A3 /* ViewController.swift */; };
+		843CDB2A237900DB00BCB0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843CDB28237900DB00BCB0A3 /* Main.storyboard */; };
+		843CDB2C237900DC00BCB0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843CDB2B237900DC00BCB0A3 /* Assets.xcassets */; };
+		843CDB2F237900DC00BCB0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843CDB2D237900DC00BCB0A3 /* LaunchScreen.storyboard */; };
+		843CDB3A237900DC00BCB0A3 /* PlayLocalVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDB39237900DC00BCB0A3 /* PlayLocalVideoTests.swift */; };
+		843CDB45237900DC00BCB0A3 /* PlayLocalVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDB44237900DC00BCB0A3 /* PlayLocalVideoUITests.swift */; };
+		843CDB542379016600BCB0A3 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDB522379016600BCB0A3 /* VideoCell.swift */; };
+		843CDB552379016600BCB0A3 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDB532379016600BCB0A3 /* Macros.swift */; };
+		843CDB58237902DD00BCB0A3 /* Jay Chou 周杰倫【不能說的祕密 Secret】-Official Music Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843CDB57237902DD00BCB0A3 /* Jay Chou 周杰倫【不能說的祕密 Secret】-Official Music Video.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843CDB36237900DC00BCB0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843CDB17237900DB00BCB0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843CDB1E237900DB00BCB0A3;
+			remoteInfo = PlayLocalVideo;
+		};
+		843CDB41237900DC00BCB0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843CDB17237900DB00BCB0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843CDB1E237900DB00BCB0A3;
+			remoteInfo = PlayLocalVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843CDB1F237900DB00BCB0A3 /* PlayLocalVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayLocalVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843CDB22237900DB00BCB0A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843CDB24237900DB00BCB0A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		843CDB26237900DB00BCB0A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843CDB29237900DB00BCB0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843CDB2B237900DC00BCB0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843CDB2E237900DC00BCB0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843CDB30237900DC00BCB0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843CDB35237900DC00BCB0A3 /* PlayLocalVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayLocalVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843CDB39237900DC00BCB0A3 /* PlayLocalVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoTests.swift; sourceTree = "<group>"; };
+		843CDB3B237900DC00BCB0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843CDB40237900DC00BCB0A3 /* PlayLocalVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayLocalVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843CDB44237900DC00BCB0A3 /* PlayLocalVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLocalVideoUITests.swift; sourceTree = "<group>"; };
+		843CDB46237900DC00BCB0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843CDB522379016600BCB0A3 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		843CDB532379016600BCB0A3 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		843CDB57237902DD00BCB0A3 /* Jay Chou 周杰倫【不能說的祕密 Secret】-Official Music Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jay Chou 周杰倫【不能說的祕密 Secret】-Official Music Video.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843CDB1C237900DB00BCB0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843CDB32237900DC00BCB0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843CDB3D237900DC00BCB0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843CDB16237900DB00BCB0A3 = {
+			isa = PBXGroup;
+			children = (
+				843CDB21237900DB00BCB0A3 /* PlayLocalVideo */,
+				843CDB38237900DC00BCB0A3 /* PlayLocalVideoTests */,
+				843CDB43237900DC00BCB0A3 /* PlayLocalVideoUITests */,
+				843CDB20237900DB00BCB0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843CDB20237900DB00BCB0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843CDB1F237900DB00BCB0A3 /* PlayLocalVideo.app */,
+				843CDB35237900DC00BCB0A3 /* PlayLocalVideoTests.xctest */,
+				843CDB40237900DC00BCB0A3 /* PlayLocalVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843CDB21237900DB00BCB0A3 /* PlayLocalVideo */ = {
+			isa = PBXGroup;
+			children = (
+				843CDB22237900DB00BCB0A3 /* AppDelegate.swift */,
+				843CDB24237900DB00BCB0A3 /* SceneDelegate.swift */,
+				843CDB26237900DB00BCB0A3 /* ViewController.swift */,
+				843CDB532379016600BCB0A3 /* Macros.swift */,
+				843CDB522379016600BCB0A3 /* VideoCell.swift */,
+				843CDB28237900DB00BCB0A3 /* Main.storyboard */,
+				843CDB2B237900DC00BCB0A3 /* Assets.xcassets */,
+				843CDB562379016F00BCB0A3 /* Resource */,
+				843CDB2D237900DC00BCB0A3 /* LaunchScreen.storyboard */,
+				843CDB30237900DC00BCB0A3 /* Info.plist */,
+			);
+			path = PlayLocalVideo;
+			sourceTree = "<group>";
+		};
+		843CDB38237900DC00BCB0A3 /* PlayLocalVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				843CDB39237900DC00BCB0A3 /* PlayLocalVideoTests.swift */,
+				843CDB3B237900DC00BCB0A3 /* Info.plist */,
+			);
+			path = PlayLocalVideoTests;
+			sourceTree = "<group>";
+		};
+		843CDB43237900DC00BCB0A3 /* PlayLocalVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				843CDB44237900DC00BCB0A3 /* PlayLocalVideoUITests.swift */,
+				843CDB46237900DC00BCB0A3 /* Info.plist */,
+			);
+			path = PlayLocalVideoUITests;
+			sourceTree = "<group>";
+		};
+		843CDB562379016F00BCB0A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				843CDB57237902DD00BCB0A3 /* Jay Chou 周杰倫【不能說的祕密 Secret】-Official Music Video.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843CDB1E237900DB00BCB0A3 /* PlayLocalVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843CDB49237900DC00BCB0A3 /* Build configuration list for PBXNativeTarget "PlayLocalVideo" */;
+			buildPhases = (
+				843CDB1B237900DB00BCB0A3 /* Sources */,
+				843CDB1C237900DB00BCB0A3 /* Frameworks */,
+				843CDB1D237900DB00BCB0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayLocalVideo;
+			productName = PlayLocalVideo;
+			productReference = 843CDB1F237900DB00BCB0A3 /* PlayLocalVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843CDB34237900DC00BCB0A3 /* PlayLocalVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843CDB4C237900DC00BCB0A3 /* Build configuration list for PBXNativeTarget "PlayLocalVideoTests" */;
+			buildPhases = (
+				843CDB31237900DC00BCB0A3 /* Sources */,
+				843CDB32237900DC00BCB0A3 /* Frameworks */,
+				843CDB33237900DC00BCB0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843CDB37237900DC00BCB0A3 /* PBXTargetDependency */,
+			);
+			name = PlayLocalVideoTests;
+			productName = PlayLocalVideoTests;
+			productReference = 843CDB35237900DC00BCB0A3 /* PlayLocalVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		843CDB3F237900DC00BCB0A3 /* PlayLocalVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843CDB4F237900DC00BCB0A3 /* Build configuration list for PBXNativeTarget "PlayLocalVideoUITests" */;
+			buildPhases = (
+				843CDB3C237900DC00BCB0A3 /* Sources */,
+				843CDB3D237900DC00BCB0A3 /* Frameworks */,
+				843CDB3E237900DC00BCB0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843CDB42237900DC00BCB0A3 /* PBXTargetDependency */,
+			);
+			name = PlayLocalVideoUITests;
+			productName = PlayLocalVideoUITests;
+			productReference = 843CDB40237900DC00BCB0A3 /* PlayLocalVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843CDB17237900DB00BCB0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Tiaotiao;
+				TargetAttributes = {
+					843CDB1E237900DB00BCB0A3 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					843CDB34237900DC00BCB0A3 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 843CDB1E237900DB00BCB0A3;
+					};
+					843CDB3F237900DC00BCB0A3 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 843CDB1E237900DB00BCB0A3;
+					};
+				};
+			};
+			buildConfigurationList = 843CDB1A237900DB00BCB0A3 /* Build configuration list for PBXProject "PlayLocalVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843CDB16237900DB00BCB0A3;
+			productRefGroup = 843CDB20237900DB00BCB0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843CDB1E237900DB00BCB0A3 /* PlayLocalVideo */,
+				843CDB34237900DC00BCB0A3 /* PlayLocalVideoTests */,
+				843CDB3F237900DC00BCB0A3 /* PlayLocalVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843CDB1D237900DB00BCB0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843CDB2F237900DC00BCB0A3 /* LaunchScreen.storyboard in Resources */,
+				843CDB58237902DD00BCB0A3 /* Jay Chou 周杰倫【不能說的祕密 Secret】-Official Music Video.mp4 in Resources */,
+				843CDB2C237900DC00BCB0A3 /* Assets.xcassets in Resources */,
+				843CDB2A237900DB00BCB0A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843CDB33237900DC00BCB0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843CDB3E237900DC00BCB0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843CDB1B237900DB00BCB0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843CDB27237900DB00BCB0A3 /* ViewController.swift in Sources */,
+				843CDB552379016600BCB0A3 /* Macros.swift in Sources */,
+				843CDB542379016600BCB0A3 /* VideoCell.swift in Sources */,
+				843CDB23237900DB00BCB0A3 /* AppDelegate.swift in Sources */,
+				843CDB25237900DB00BCB0A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843CDB31237900DC00BCB0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843CDB3A237900DC00BCB0A3 /* PlayLocalVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843CDB3C237900DC00BCB0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843CDB45237900DC00BCB0A3 /* PlayLocalVideoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843CDB37237900DC00BCB0A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843CDB1E237900DB00BCB0A3 /* PlayLocalVideo */;
+			targetProxy = 843CDB36237900DC00BCB0A3 /* PBXContainerItemProxy */;
+		};
+		843CDB42237900DC00BCB0A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843CDB1E237900DB00BCB0A3 /* PlayLocalVideo */;
+			targetProxy = 843CDB41237900DC00BCB0A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		843CDB28237900DB00BCB0A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843CDB29237900DB00BCB0A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		843CDB2D237900DC00BCB0A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843CDB2E237900DC00BCB0A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843CDB47237900DC00BCB0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843CDB48237900DC00BCB0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843CDB4A237900DC00BCB0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLocalVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiaotiao.PlayLocalVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		843CDB4B237900DC00BCB0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLocalVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiaotiao.PlayLocalVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		843CDB4D237900DC00BCB0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLocalVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiaotiao.PlayLocalVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayLocalVideo.app/PlayLocalVideo";
+			};
+			name = Debug;
+		};
+		843CDB4E237900DC00BCB0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLocalVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiaotiao.PlayLocalVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayLocalVideo.app/PlayLocalVideo";
+			};
+			name = Release;
+		};
+		843CDB50237900DC00BCB0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLocalVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiaotiao.PlayLocalVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayLocalVideo;
+			};
+			name = Debug;
+		};
+		843CDB51237900DC00BCB0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayLocalVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tiaotiao.PlayLocalVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayLocalVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843CDB1A237900DB00BCB0A3 /* Build configuration list for PBXProject "PlayLocalVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843CDB47237900DC00BCB0A3 /* Debug */,
+				843CDB48237900DC00BCB0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843CDB49237900DC00BCB0A3 /* Build configuration list for PBXNativeTarget "PlayLocalVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843CDB4A237900DC00BCB0A3 /* Debug */,
+				843CDB4B237900DC00BCB0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843CDB4C237900DC00BCB0A3 /* Build configuration list for PBXNativeTarget "PlayLocalVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843CDB4D237900DC00BCB0A3 /* Debug */,
+				843CDB4E237900DC00BCB0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843CDB4F237900DC00BCB0A3 /* Build configuration list for PBXNativeTarget "PlayLocalVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843CDB50237900DC00BCB0A3 /* Debug */,
+				843CDB51237900DC00BCB0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843CDB17237900DB00BCB0A3 /* Project object */;
+}
