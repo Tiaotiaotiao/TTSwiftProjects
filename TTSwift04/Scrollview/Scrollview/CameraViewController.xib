@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController" customModule="Scrollview" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraResultImgView" destination="3zq-bu-PX3" id="iCh-Pa-XSS"/>
+                <outlet property="cameraView" destination="gG2-B7-7Bz" id="7Iv-rY-Q4X"/>
+                <outlet property="photographBtn" destination="5Un-iq-fs2" id="LYW-5U-R6e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gG2-B7-7Bz">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3zq-bu-PX3">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Un-iq-fs2">
+                    <rect key="frame" x="172" y="806" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="Q5L-dm-diS"/>
+                        <constraint firstAttribute="width" secondItem="5Un-iq-fs2" secondAttribute="height" multiplier="1:1" id="WWw-6R-Mv0"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" image="photograph_img"/>
+                    <connections>
+                        <action selector="photographBtnClick:" destination="-1" eventType="touchUpInside" id="PKl-Al-hio"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5Un-iq-fs2" secondAttribute="bottom" constant="20" id="Ehb-S1-Dor"/>
+                <constraint firstItem="gG2-B7-7Bz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JQs-Od-HOg"/>
+                <constraint firstItem="3zq-bu-PX3" firstAttribute="centerY" secondItem="gG2-B7-7Bz" secondAttribute="centerY" id="KMh-Ay-VTP"/>
+                <constraint firstItem="gG2-B7-7Bz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OEr-Qa-CLV"/>
+                <constraint firstItem="3zq-bu-PX3" firstAttribute="centerX" secondItem="gG2-B7-7Bz" secondAttribute="centerX" id="UbC-F4-oH1"/>
+                <constraint firstItem="gG2-B7-7Bz" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Udj-Ga-zVB"/>
+                <constraint firstItem="3zq-bu-PX3" firstAttribute="top" secondItem="gG2-B7-7Bz" secondAttribute="top" id="YVt-DG-oc0"/>
+                <constraint firstItem="gG2-B7-7Bz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cD2-4u-3UT"/>
+                <constraint firstItem="3zq-bu-PX3" firstAttribute="leading" secondItem="gG2-B7-7Bz" secondAttribute="leading" id="jHf-Vd-j5n"/>
+                <constraint firstItem="gG2-B7-7Bz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qc3-fe-5cv"/>
+                <constraint firstItem="5Un-iq-fs2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ua5-Y8-Ufl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-552" y="115"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="photograph_img" width="101" height="100"/>
+    </resources>
+</document>
